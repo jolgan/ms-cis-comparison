@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment variables / secrets
+.env
+.env.*
+secrets.*
+*.key
+
+# Data — processed outputs (raw data is version-controlled intentionally)
+data/processed/
+data/interim/
+data/external/
+
+# OS artefacts (Windows)
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# OS artefacts (macOS)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Power BI temp files
+*.pbix.lock
+
+# Matplotlib / output artefacts
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Excel temp files
+~$*.xlsx
+~$*.xls
