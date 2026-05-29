@@ -52,11 +52,13 @@ $RECYCLE.BIN/
 # Power BI temp files
 *.pbix.lock
 
-# Matplotlib / output artefacts
+# Matplotlib / output artefacts (exclude scratch renders, but track deliberate exports)
 *.png
 *.jpg
 *.jpeg
 *.pdf
+!visuals/*.png
+!visuals/*.jpg
 
 # Excel temp files
 ~$*.xlsx
