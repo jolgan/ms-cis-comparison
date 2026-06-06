@@ -26,3 +26,15 @@ This project uses two publicly available, CC BY 4.0 licensed clinical datasets d
 4. MS Society UK. Clinically Isolated Syndrome (CIS). https://www.mssociety.org.uk/about-ms/types-of-ms/clinically-isolated-syndrome-cis
 
 5. Thompson AJ, Banwell BL, Barkhof F, et al. Diagnosis of multiple sclerosis: 2017 revisions of the McDonald criteria. *Lancet Neurology*. 2018;17(2):162–173. https://doi.org/10.1016/S1474-4422(17)30470-2
+
+## Conversion Rate Benchmarks
+
+1. Wottschel V, Alexander DC, Kwok PP, Chard DT, Stromillo ML, De Stefano N, Thompson AJ, Miller DH, Ciccarelli O. Predicting outcome in clinically isolated syndrome using machine learning. *NeuroImage: Clinical*. 2015;7:281-287. https://doi.org/10.1016/j.nicl.2014.11.021 (Open access, CC BY. Primary citation for 30% conversion at 1 year and 44% at 3 years.)
+
+2. Kuhle J, Disanto G, Dobson R, et al. Conversion from clinically isolated syndrome to multiple sclerosis: A large multicentre study. *Multiple Sclerosis Journal*. 2015;21(8):1013-1024. https://doi.org/10.1177/1352458514568827 (Large cohort anchor: 623 of 1047 CIS patients converted at median 4.31-year follow-up.)
+
+3. Tintore M, Rovira A, Rio J, et al. Defining high, medium and low impact prognostic factors for developing multiple sclerosis. *Brain*. 2015;138(7):1863-1874. https://doi.org/10.1093/brain/awv105 (MRI-lesion-burden-stratified conversion rates; low-lesion subgroups fall within 30-50% band.)
+
+4. Miller DH, Chard DT, Ciccarelli O. Clinically isolated syndromes. *Lancet Neurology*. 2012;11(2):157-169. https://doi.org/10.1016/S1474-4422(11)70274-5 (Canonical CIS natural-history review.)
+
+5. Brownlee WJ, Miller DH. Clinically isolated syndromes and the relationship to multiple sclerosis. *Journal of Clinical Neuroscience*. 2014;21(12):2065-2071. https://doi.org/10.1016/j.jocn.2014.02.026 (Source for the widely cited figure that 45% of CIS patients converted to CDMS after a mean follow-up of more than 5 years.)
