@@ -9,6 +9,8 @@ This project uses two publicly available, CC BY 4.0 licensed clinical datasets d
 1. Balnytė R, et al. Lithuanian CIS Dataset. Mendeley Data, V1. https://data.mendeley.com/datasets/yjfydt34rs/1. Licence: CC BY 4.0.
 2. Arias-Valenzuela J, et al. Mexican CIS Dataset. Mendeley Data, V1. https://data.mendeley.com/datasets/8wk5hjx7x2/1. Licence: CC BY 4.0.
 
+3. Chavarria A, et al. Conversion Predictors of Clinically Isolated Syndrome to Multiple Sclerosis in Mexican Patients: A Prospective Study. *Multiple Sclerosis and Related Disorders*. 2023. PMID: 37429750. (Source paper for the Mexican CIS Mendeley dataset. Reports 46% CDMS conversion rate at 10-year follow-up in a Mexican mestizo cohort.)
+
 ## Research Papers
 
 1. Balnytė R, Matijošaitis V, Čelpačenko I, Malciūtė M, Stankevičiūtė R, Laucius O. Factors related to the progression of clinically isolated syndrome to multiple sclerosis: A retrospective study in Lithuania. *Medicina*. 2022;58(9):1178. https://doi.org/10.3390/medicina58091178
