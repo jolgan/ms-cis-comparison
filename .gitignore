@@ -59,6 +59,7 @@ $RECYCLE.BIN/
 *.pdf
 !visuals/*.png
 !visuals/*.jpg
+!visuals/screenshots/*.png
 
 # Excel temp files
 ~$*.xlsx
