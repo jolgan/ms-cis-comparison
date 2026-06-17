@@ -87,6 +87,10 @@ pip install -r requirements.txt
 
 Open the `notebooks/` folder in Jupyter Lab or VS Code and run in order.
 
+## References
+
+Full references, including datasets, clinical background sources, and conversion rate benchmarks, are documented in [references.md](references.md).
+
 ---
 
 *Analysis by [Jolene Gan](https://www.linkedin.com/in/jolenegan)*
