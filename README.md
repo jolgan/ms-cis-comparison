@@ -11,19 +11,29 @@ Identifying patients who are at high risk for conversion at the Clinically Isola
 
 ## Data Sources
 
-| Dataset | Population | Source | Notes |
-|---------|------------|--------|-------|
-| `data/raw/lithuanian_cis.xlsx` | Lithuanian | <!-- Institution / publication --> | <!-- n, follow-up period, etc. --> |
-| `data/raw/mexican_cis.xlsx` | Mexican | <!-- Institution / publication --> | <!-- n, follow-up period, etc. --> |
+| Dataset | Population | Patients | Source | Licence | Notes |
+|---|---|---|---|---|---|
+| `data/raw/lithuanian_cis.xlsx` | Lithuanian | 138 | Balnytė R et al. Medicina. 2022;58(9):1178. [Mendeley](https://data.mendeley.com/datasets/yjfydt34rs/1) | CC BY 4.0 | 44 columns; 1 ghost row dropped; outcome column: MS (1=converted, 0=did not) |
+| `data/raw/mexican_cis.xlsx` | Mexican | 288 | Chavarria A et al. Mult Scler Relat Disord. 2023. [Mendeley](https://data.mendeley.com/datasets/8wk5hjx7x2/1) | CC BY 4.0 | 18 columns after dropping EDSS (>50% null); outcome column: group (1=converter, 2=non-converter); 13 null-outcome rows retained in cleaned data but excluded from analysis |
 
 <!-- Add any data access restrictions or citations here. -->
 
 ## Tools Used
 
-- Python (pandas, scikit-learn, matplotlib, seaborn)
-- Jupyter Notebooks
-- SQL
-- Power BI
+- **Python** (pandas, matplotlib, seaborn) - data cleaning, EDA, and visualisation
+- **SQLite** - cross-population querying via a UNION view
+- **Jupyter Notebooks** - primary working environment
+- **Power BI Desktop** - interactive dashboard with DAX measures
+- **Tableau Public** - second dashboard and improved charts, published online
+
+## Project Pipeline
+
+1. **Data Inspection**: raw exploration of both datasets, shape, data types, null counts
+2. **Data Cleaning**: ghost row removal, EDSS column drop, binary column engineering (`ogb_bin`, `vep_bin`, `peri_bin`)
+3. **SQLite Analysis**: cross-population UNION query to produce `cross_population_union.csv`
+4. **EDA**: data visualisations across both cohorts maintaining colour consistency
+5. **Power BI Dashboard**: 10 DAX measures, 1 slicer, 4 charts, 2 cards (`ms_cis_dashboard.pbix`)
+6. **Tableau Dashboard**: 5 worksheets mirroring DAX logic, dashboard published to Tableau Public
 
 ## Key Findings
 
