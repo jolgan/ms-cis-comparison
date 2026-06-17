@@ -20,18 +20,20 @@ Identifying patients who are at high risk for conversion at the Clinically Isola
 
 ## Tools Used
 
-- Python (pandas, scikit-learn, matplotlib, seaborn)
-- Jupyter Notebooks
-- SQL
-- Power BI
-
-## Tools Used
-
 - **Python** (pandas, matplotlib, seaborn) - data cleaning, EDA, and visualisation
 - **SQLite** - cross-population querying via a UNION view
 - **Jupyter Notebooks** - primary working environment
 - **Power BI Desktop** - interactive dashboard with DAX measures
 - **Tableau Public** - second dashboard and improved charts, published online
+
+## Project Pipeline
+
+1. **Data Inspection**: raw exploration of both datasets, shape, data types, null counts
+2. **Data Cleaning**: ghost row removal, EDSS column drop, binary column engineering (`ogb_bin`, `vep_bin`, `peri_bin`)
+3. **SQLite Analysis**: cross-population UNION query to produce `cross_population_union.csv`
+4. **EDA**: data visualisations across both cohorts maintaining colour consistency
+5. **Power BI Dashboard**: 10 DAX measures, 1 slicer, 4 charts, 2 cards (`ms_cis_dashboard.pbix`)
+6. **Tableau Dashboard**: 5 worksheets mirroring DAX logic, dashboard published to Tableau Public
 
 ## Key Findings
 
