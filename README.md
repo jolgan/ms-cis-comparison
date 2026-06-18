@@ -38,10 +38,24 @@ Identifying patients who are at high risk for conversion at the Clinically Isola
 ## Key Findings
 
 <!-- Summarise the most important results once the analysis is complete. -->
+- **Oligoclonal bands (OGB)** were the strongest cross-population predictor of conversion. Positivity rates were consistently higher in converters across both cohorts (Lithuanian: 71% vs 15%; Mexican: 47% vs 13%).
+- **Periventricular MRI lesions** showed the largest single numerical gap in the Mexican cohort (79% vs 26%), but did not replicate in the Lithuanian cohort and should be interpreted with caution.
+- **Visual evoked potential (VEP)** positivity was higher in converters in both cohorts (Lithuanian: 51% vs 37%; Mexican: 41% vs 22%), suggesting a consistent but secondary signal.
+- **Age at presentation** showed no meaningful difference between converters and non-converters in either cohort, making it a deliberate negative finding.
 
-- TBD
+## Dashboards
+### Power BI
+![Power BI Dashboard](visuals/screenshots/MSConversionDashboardDynamicGIF.gif)
+
+Built in Power BI Desktop with 10 DAX measures and a cohort slicer. The `.pbix` file is in `powerbi/` (requires Power BI Desktop to open).
+
+### Tableau
+![Tableau Dashboard](visuals/screenshots/TableaudashboarddynamicviewGIF.gif)
+
+Published to Tableau Public. View the live dashboard [here](https://public.tableau.com/views/CIStoMSConversionRate-LithuaniavsMexico/MSConversionDashboard). The `.twbx` file is in `tableau/`.
 
 ## How to Run
+If you wanted to reproduce the Python analysis on your own machine!
 
 ### 1. Clone the repository
 
@@ -51,7 +65,10 @@ cd ms-cis-comparison
 ```
 
 ### 2. Create and activate a virtual environment
+A virtual environment helps to prevent Python package conflicts between projects.
 
+Example: Project A uses Pandas v1.5 but project B uses Pandas v2.2.
+Without isolation, installing one version could break the other project.
 ```bash
 python -m venv .venv
 # Windows
@@ -61,7 +78,7 @@ source .venv/bin/activate
 ```
 
 ### 3. Install dependencies
-
+Installs all the Python libraries the notebooks need.
 ```bash
 pip install -r requirements.txt
 ```
@@ -70,6 +87,10 @@ pip install -r requirements.txt
 
 Open the `notebooks/` folder in Jupyter Lab or VS Code and run in order.
 
+## References
+
+Full references, including datasets, clinical background sources, and conversion rate benchmarks, are documented in [references.md](references.md).
+
 ---
 
-*Analysis by Jolene Gan*
+*Analysis by [Jolene Gan](https://www.linkedin.com/in/jolenegan)*
