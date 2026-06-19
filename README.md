@@ -32,7 +32,7 @@ Identifying patients who are at high risk for conversion at the Clinically Isola
 2. **Data Cleaning**: ghost row removal, EDSS column drop, binary column engineering (`ogb_bin`, `vep_bin`, `peri_bin`)
 3. **SQLite Analysis**: cross-population UNION query to produce `cross_population_union.csv`
 4. **EDA**: data visualisations across both cohorts maintaining colour consistency
-5. **Power BI Dashboard**: 10 DAX measures, 1 slicer, 4 charts, 2 cards (`ms_cis_dashboard.pbix`)
+5. **Power BI Dashboard**: 10 DAX measures, 1 slicer, 4 charts, 2 cards ([`ms_cis_dashboard.pbix`](powerbi/CIS-to-MS%20Conversion%20Dashboard.pbix))
 6. **Tableau Dashboard**: 5 worksheets mirroring DAX logic, dashboard published to Tableau Public
 
 ## Key Findings
@@ -47,12 +47,12 @@ Identifying patients who are at high risk for conversion at the Clinically Isola
 ### Power BI
 ![Power BI Dashboard](visuals/screenshots/MSConversionDashboardDynamicGIF.gif)
 
-Built in Power BI Desktop with 10 DAX measures and a cohort slicer. The `.pbix` file is in `powerbi/` (requires Power BI Desktop to open).
+Built in Power BI Desktop with 10 DAX measures and a cohort slicer. The `.pbix` file is in [`powerbi/`](powerbi/) (requires Power BI Desktop to open).
 
 ### Tableau
 ![Tableau Dashboard](visuals/screenshots/TableaudashboarddynamicviewGIF.gif)
 
-Published to Tableau Public. View the live dashboard [here](https://public.tableau.com/views/CIStoMSConversionRate-LithuaniavsMexico/MSConversionDashboard). The `.twbx` file is in `tableau/`.
+Published to Tableau Public. View the live dashboard [here](https://public.tableau.com/views/CIStoMSConversionRate-LithuaniavsMexico/MSConversionDashboard). The `.twbx` file is in [`tableau/`](tableau/).
 
 ## How to Run
 If you wanted to reproduce the Python analysis on your own machine!
@@ -85,7 +85,7 @@ pip install -r requirements.txt
 
 ### 4. Run the notebooks
 
-Open the `notebooks/` folder in Jupyter Lab or VS Code and run in order.
+Open the [`notebooks/`](notebooks/) folder in Jupyter Lab or VS Code and run in order.
 
 ## References
 
