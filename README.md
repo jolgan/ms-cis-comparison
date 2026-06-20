@@ -20,7 +20,7 @@ Identifying patients who are at high risk for conversion at the Clinically Isola
 
 ## Tools Used
 
-- **Python** (pandas, matplotlib, seaborn) - data cleaning, EDA, and visualisation
+- **Python** (pandas, matplotlib, seaborn, sci-kit learn) - data cleaning, EDA, and visualisation
 - **SQLite** - cross-population querying via a UNION view
 - **Jupyter Notebooks** - primary working environment
 - **Power BI Desktop** - interactive dashboard with DAX measures
