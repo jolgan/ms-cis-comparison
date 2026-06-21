@@ -34,6 +34,7 @@ Identifying patients who are at high risk for conversion at the Clinically Isola
 4. **EDA**: data visualisations across both cohorts maintaining colour consistency
 5. **Power BI Dashboard**: 10 DAX measures, 1 slicer, 4 charts, 2 cards ([`ms_cis_dashboard.pbix`](powerbi/CIS-to-MS%20Conversion%20Dashboard.pbix))
 6. **Tableau Dashboard**: 5 worksheets mirroring DAX logic, dashboard published to Tableau Public
+7. **ML Classification**: logistic regression and random forest to test which clinical features predict conversion
 
 ## Key Findings
 
