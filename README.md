@@ -43,6 +43,7 @@ Identifying patients who are at high risk for conversion at the Clinically Isola
 - **Periventricular MRI lesions** showed the largest single numerical gap in the Mexican cohort (79% vs 26%), but did not replicate in the Lithuanian cohort and should be interpreted with caution.
 - **Visual evoked potential (VEP)** positivity was higher in converters in both cohorts (Lithuanian: 51% vs 37%; Mexican: 41% vs 22%), suggesting a consistent but secondary signal.
 - **Age at presentation** showed no meaningful difference between converters and non-converters in either cohort, making it a deliberate negative finding.
+- **Machine learning confirmation** - logistic regression confirmed OGB as the strongest binary predictor of conversion (coefficient +2.0), consistent with the EDA findings.
 
 ## Dashboards
 ### Power BI
