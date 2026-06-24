@@ -24,7 +24,7 @@ Identifying patients who are at high risk for conversion at the Clinically Isola
 - **SQLite** - cross-population querying via a UNION view
 - **Jupyter Notebooks** - primary working environment
 - **Power BI Desktop** - interactive dashboard with DAX measures
-- **Tableau Public** - second dashboard and improved charts, published online
+- **Tableau Public** - second dashboard and improved charts, [published online](https://public.tableau.com/views/CIStoMSConversionRate-LithuaniavsMexico/MSConversionDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## Project Pipeline
 
