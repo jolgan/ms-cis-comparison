@@ -60,6 +60,10 @@ $RECYCLE.BIN/
 !visuals/*.png
 !visuals/*.jpg
 !visuals/screenshots/*.png
+!visuals/assets/*.png
+
+# Full-size video masters kept locally only; visuals/assets holds compressed copies
+visuals/assets-original/
 
 # Excel temp files
 ~$*.xlsx
